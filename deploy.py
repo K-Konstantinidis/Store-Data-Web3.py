@@ -71,6 +71,7 @@ my_address = "0x73b7636298146479a275859CA3E10163675cc97f"
 # Get the private key from that file
 # DO NOT push the .env file to Github etc.
 # Add it in a .gitignore file to be sure you won't push it
+# Insert this line in the .env: export PRIVATE_KEY = 0xYour_Key_Code
 private_key = os.getenv("PRIVATE_KEY")
 
 # -----Deploy our contract-----
