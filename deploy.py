@@ -47,7 +47,7 @@ abi = json.loads(
     compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["metadata"]
 )["output"]["abi"]
 
-# -----Connect to Ganache Local Blockchain-----
+# -----Connect to a Blockchain-----
 
 # Get the provider (Test net(e.g. Ganache/Goerli), Main net)
 w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
